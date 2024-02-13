@@ -5,10 +5,13 @@ from urllib.request import urlopen
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-key = "6801e19bdc6b58d340eb8e0e336a3dad"
+
+import private.key as key
+
+
 url = "https://dapi.kakao.com/v2/local/search/keyword.json"
 headers = {
-    "Authorization": "KakaoAK "+key,
+    "Authorization": "KakaoAK "+key.kakao_key,
     "content-type": "application/json;charset=UTF-8"
 }
 params = {
