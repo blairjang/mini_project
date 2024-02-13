@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 
 import private.key as key
 
+
 url = "https://dapi.kakao.com/v2/local/search/keyword.json"
 headers = {
     "Authorization": "KakaoAK "+key.kakao_key,
