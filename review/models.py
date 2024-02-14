@@ -9,4 +9,4 @@ class Post(models.Model):
     
 
     def __str__(self):       # 제목을 문자열로 보여쥼 
-        return self.title
+        return self.title 
