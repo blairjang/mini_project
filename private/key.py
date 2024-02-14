@@ -1,1 +1,0 @@
-kakao_key = "6801e19bdc6b58d340eb8e0e336a3dad"
